@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EID-CODEMISFITS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><i class=""></i>Ethics and Integrity Directorate.</a>
+
+    <nav class="navbar">
+        <a class="active" href="#index">home</a>
+        <a href="#declaration">declaration</a>
+        <a href="#code of conduct">code of conduct</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
+      
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="login.html" class="fas fa-user"></a>
+      
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<!----search form ends---->
+
+<!----home section begins---->
+
+<section class="home" id="home">
+
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <img class="tilt" src="images/coat.svg" alt="">
+        <h3> Ethics and <span>Integrity Directorate</span> </h3>
+        <p> feel free to <span class="typing-text"> declare your assets </span> </p>
+        <a href="#index" class="btn">declare</a>
+    </div>
+
+</section>
+
+<!----home section ends---->
+
+
+
+<!-- footer section starts  -->
+<section class="credit">
+
+    <p> created by <span>code-misfits</span> | all rights reserved! </p>
+
+   
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript part  -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/app.js"></script>
+<script src="js/particles.min.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+var typed = new Typed('.typing-text', {
+    strings : ['declare your assets', 'declare your assets', 'be transparent'],
+    loop : true,
+    typeSpeed : 150
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+
+
+</body>
+</html>
