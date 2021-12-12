@@ -17,7 +17,7 @@
 </head>
 <body>
     
-<!-- header section starts      -->
+<!-- header section starts -->
 
 <header>
 
@@ -25,15 +25,13 @@
 
     <nav class="navbar">
         <a class="active" href="#home">home</a>
-        <a href="code.html">code of conduct</a>
-        <a href="contact.html">contact</a>
+        
         
       
     </nav>
 
     <div class="icons">
         
-        <i class="fas fa-search" id="search-icon"></i>
         <a href="login.html" class="fas fa-user"></a>
       
     </div>
@@ -42,29 +40,23 @@
 
 <!-- header section ends-->
 
-<!-- search form  -->
 
-<form action="" id="search-form">
-    <input type="search" placeholder="search here..." name="" id="search-box">
-    <label for="search-box" class="fas fa-search"></label>
-    <i class="fas fa-times" id="close"></i>
-</form>
-
-
+<h1 class="heading">WELCOME</h1>
 
 <!----home section begins---->
 
 <section class="home" id="home">
 
-    <h1 class="heading">WELCOME</h1>
+    
 
     <div id="particles-js"></div>
 
     <div class="content">
         <img class="tilt" src="images/coat.png" alt="">
         <h3> Ethics and <span>Integrity Directorate</span> </h3>
+
         <p> feel free to <span class="typing-text"> declare your assets </span> </p>
-        <a href="#index" class="btn">declare</a>
+
     </div>
 
 </section>
@@ -147,10 +139,14 @@
         
 </section>
 
-<!-- loader part  
+<!-- loader part 
+
 <div class="loader-container">
     <img src="images/load3.gif" alt="">
-</div>-->
+</div>
+--->
+
+ 
 
 
 <!-- footer section ends -->
@@ -196,7 +192,6 @@
 
 <script>
     
-let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
 
 menu.onclick = () =>{
@@ -205,7 +200,7 @@ menu.onclick = () =>{
 }
 
 window.onscroll = () =>{
-    menu.classList.remove('fa-times');
+    
     header.classList.remove('active');
 };
 
@@ -224,7 +219,6 @@ document.querySelectorAll('.accordion-container .accordion').forEach(accordion =
         accordion.classList.toggle('active');
     }
 });
-
 
 function loader(){
   document.querySelector('.loader-container').classList.add('fade-out');
